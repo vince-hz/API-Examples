@@ -144,7 +144,7 @@ class JoinChannelVideoToken: BaseViewController {
         agoraKit.setVideoEncoderConfiguration(AgoraVideoEncoderConfiguration(size: resolution,
                                                                              frameRate: fps,
                                                                              bitrate: AgoraVideoBitrateStandard,
-                                                                             orientationMode: orientation,
+                                                                             orientationMode: .fixedLandscape,//orientation,
                                                                              mirrorMode: .auto))
 
         // set up local video to render your local camera preview

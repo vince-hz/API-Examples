@@ -85,6 +85,7 @@
 		576EA54825AC3523000B3D79 /* CustomPcmAudioSource.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576EA54A25AC3523000B3D79 /* CustomPcmAudioSource.storyboard */; };
 		576EA59025AEDD3C000B3D79 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		57FE7C4B26B2D103002D9043 /* CircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 57FE7C4726B2D103002D9043 /* CircularBuffer.c */; };
+		61A32C352B8CAA0E0082175E /* NVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A32C342B8CAA0E0082175E /* NVViewController.swift */; };
 		670936FD282DFE1600BC3954 /* ContentInspect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670936FF282DFE1600BC3954 /* ContentInspect.storyboard */; };
 		6709B23B2806B0EA000BCC58 /* RawAudioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709B23A2806B0EA000BCC58 /* RawAudioData.swift */; };
 		6709B23C2806BB4A000BCC58 /* RawAudioData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6709B23E2806BB4A000BCC58 /* RawAudioData.storyboard */; };
@@ -380,6 +381,7 @@
 		57FE7C4D26B2D1A4002D9043 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		5A45F3A50A20714335E46364 /* Pods_Agora_ScreenShare_Extension_Socket_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_ScreenShare_Extension_Socket_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3A20457BD332886F0CC52F /* Pods-SimpleAudioFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAudioFilter.debug.xcconfig"; path = "Target Support Files/Pods-SimpleAudioFilter/Pods-SimpleAudioFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		61A32C342B8CAA0E0082175E /* NVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVViewController.swift; sourceTree = "<group>"; };
 		670936FE282DFE1600BC3954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ContentInspect.storyboard; sourceTree = "<group>"; };
 		67093701282DFE1B00BC3954 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ContentInspect.strings"; sourceTree = "<group>"; };
 		6709B23A2806B0EA000BCC58 /* RawAudioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawAudioData.swift; sourceTree = "<group>"; };
@@ -1296,6 +1298,7 @@
 				E77D54C228F55E9100D51C1E /* JoinChannelVideoToken.strings */,
 				E77D54C428F55E9100D51C1E /* JoinChannelVideoToken.storyboard */,
 				E77D54C628F55E9100D51C1E /* JoinChannelVideoToken.swift */,
+				61A32C342B8CAA0E0082175E /* NVViewController.swift */,
 			);
 			path = "JoinChannelVideo(Token)";
 			sourceTree = "<group>";
@@ -1843,6 +1846,7 @@
 				E7A49D5429090FF500F06DD4 /* BELicenseHelper.mm in Sources */,
 				E7A49D4B29090FA000F06DD4 /* BERenderHelper.m in Sources */,
 				E7A49D172907DD2600F06DD4 /* EffectsLicense.m in Sources */,
+				61A32C352B8CAA0E0082175E /* NVViewController.swift in Sources */,
 				E728B84F28B601A300674A4A /* AgoraSampleBufferRender.m in Sources */,
 				8B333DA9267B4BC3002A3785 /* SettingsCells.swift in Sources */,
 				E7A49D4829090F8000F06DD4 /* BEFrameProcessor.mm in Sources */,
